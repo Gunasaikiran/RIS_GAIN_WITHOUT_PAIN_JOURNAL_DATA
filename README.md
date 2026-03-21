@@ -34,11 +34,11 @@
 
 **Note:**       
 1. Folder name and File names are written accordingly what data it contains
-2. The notation for GRID RIS on/off cases 00/01/10/11 :
-    (RIS is switching between two directions and beamforming for Ts seconds in each direction with EWMA throughput window size is Tc seconds)
-    00 - Both the UEs are not placed in the directions of the RIS pointing
-    01/10 - One UE is placed in the direction of RIS pointing and the other UE is placed in the direction where RIS is not pointing
-    11 - Both the UEs are placed exactly in the same directions of RIS pointing
+2. The notation for GRID RIS on/off cases 00/01/10/11 :\
+    (RIS is randomly switching between two directions and beamform for Ts seconds in each direction)\
+    &emsp; 00 - Both the UEs are not placed in the directions of the RIS pointing\
+    &emsp; 01/10 - One UE is placed in the direction of RIS pointing and the other UE is placed in the direction where RIS is not pointing\
+    &emsp; 11 - Both the UEs are placed exactly in the same directions of RIS pointing
 3. D1, D2, D3 are the angular distances from RIS sucha that (D1 < D2 < D3)
 4. There are two UEs: UE1 and UE2
 5. UE1 is at 30 degree and UE2 is at 60 degree
